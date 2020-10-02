@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C3DF7F822526A64100D3C919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7F812526A64100D3C919 /* AppDelegate.swift */; };
-		C3DF7F842526A64100D3C919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7F832526A64100D3C919 /* SceneDelegate.swift */; };
-		C3DF7F862526A64100D3C919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7F852526A64100D3C919 /* ViewController.swift */; };
-		C3DF7F892526A64100D3C919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7F872526A64100D3C919 /* Main.storyboard */; };
-		C3DF7F8B2526A64400D3C919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7F8A2526A64400D3C919 /* Assets.xcassets */; };
-		C3DF7F8E2526A64400D3C919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7F8C2526A64400D3C919 /* LaunchScreen.storyboard */; };
+		C3DF7F972526A67500D3C919 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7F962526A67500D3C919 /* Constants.swift */; };
+		C3DF7F9B2526A69A00D3C919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7F9A2526A69A00D3C919 /* Assets.xcassets */; };
+		C3DF7F9F2526A6B000D3C919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7F9E2526A6B000D3C919 /* LaunchScreen.storyboard */; };
+		C3DF7FA22526A6BA00D3C919 /* StudyPlansTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7FA12526A6BA00D3C919 /* StudyPlansTableViewController.swift */; };
+		C3DF7FA52526A6C900D3C919 /* StudyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7FA42526A6C900D3C919 /* StudyManager.swift */; };
+		C3DF7FA82526A6D400D3C919 /* StudyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7FA72526A6D400D3C919 /* StudyPlan.swift */; };
+		C3DF7FAD2526A6E600D3C919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DF7FAC2526A6E600D3C919 /* Main.storyboard */; };
+		C3DF7FB12526A6FA00D3C919 /* StudyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF7FB02526A6FA00D3C919 /* StudyPlanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3DF7F7E2526A64100D3C919 /* MeuPlanoDeEstudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuPlanoDeEstudos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF7F812526A64100D3C919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3DF7F832526A64100D3C919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3DF7F852526A64100D3C919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3DF7F882526A64100D3C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3DF7F8A2526A64400D3C919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3DF7F8D2526A64400D3C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3DF7F8F2526A64400D3C919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DF7F962526A67500D3C919 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3DF7F9A2526A69A00D3C919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3DF7F9E2526A6B000D3C919 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3DF7FA12526A6BA00D3C919 /* StudyPlansTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyPlansTableViewController.swift; sourceTree = "<group>"; };
+		C3DF7FA42526A6C900D3C919 /* StudyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyManager.swift; sourceTree = "<group>"; };
+		C3DF7FA72526A6D400D3C919 /* StudyPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyPlan.swift; sourceTree = "<group>"; };
+		C3DF7FAC2526A6E600D3C919 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3DF7FB02526A6FA00D3C919 /* StudyPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyPlanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				C3DF7F812526A64100D3C919 /* AppDelegate.swift */,
-				C3DF7F832526A64100D3C919 /* SceneDelegate.swift */,
-				C3DF7F852526A64100D3C919 /* ViewController.swift */,
-				C3DF7F872526A64100D3C919 /* Main.storyboard */,
-				C3DF7F8A2526A64400D3C919 /* Assets.xcassets */,
-				C3DF7F8C2526A64400D3C919 /* LaunchScreen.storyboard */,
+				C3DF7FA72526A6D400D3C919 /* StudyPlan.swift */,
+				C3DF7FAC2526A6E600D3C919 /* Main.storyboard */,
+				C3DF7FB02526A6FA00D3C919 /* StudyPlanViewController.swift */,
+				C3DF7FA42526A6C900D3C919 /* StudyManager.swift */,
+				C3DF7FA12526A6BA00D3C919 /* StudyPlansTableViewController.swift */,
+				C3DF7F9A2526A69A00D3C919 /* Assets.xcassets */,
+				C3DF7F9E2526A6B000D3C919 /* LaunchScreen.storyboard */,
 				C3DF7F8F2526A64400D3C919 /* Info.plist */,
+				C3DF7F962526A67500D3C919 /* Constants.swift */,
 			);
 			path = MeuPlanoDeEstudos;
 			sourceTree = "<group>";
@@ -124,9 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DF7F8E2526A64400D3C919 /* LaunchScreen.storyboard in Resources */,
-				C3DF7F8B2526A64400D3C919 /* Assets.xcassets in Resources */,
-				C3DF7F892526A64100D3C919 /* Main.storyboard in Resources */,
+				C3DF7FAD2526A6E600D3C919 /* Main.storyboard in Resources */,
+				C3DF7F9F2526A6B000D3C919 /* LaunchScreen.storyboard in Resources */,
+				C3DF7F9B2526A69A00D3C919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +146,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DF7F862526A64100D3C919 /* ViewController.swift in Sources */,
+				C3DF7FA82526A6D400D3C919 /* StudyPlan.swift in Sources */,
+				C3DF7FB12526A6FA00D3C919 /* StudyPlanViewController.swift in Sources */,
 				C3DF7F822526A64100D3C919 /* AppDelegate.swift in Sources */,
-				C3DF7F842526A64100D3C919 /* SceneDelegate.swift in Sources */,
+				C3DF7FA22526A6BA00D3C919 /* StudyPlansTableViewController.swift in Sources */,
+				C3DF7F972526A67500D3C919 /* Constants.swift in Sources */,
+				C3DF7FA52526A6C900D3C919 /* StudyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C3DF7F872526A64100D3C919 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3DF7F882526A64100D3C919 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C3DF7F8C2526A64400D3C919 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3DF7F8D2526A64400D3C919 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C3DF7F902526A64400D3C919 /* Debug */ = {
@@ -216,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
